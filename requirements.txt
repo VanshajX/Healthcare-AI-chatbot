@@ -1,0 +1,18 @@
+streamlit>=1.32.0
+
+# Hugging Face — CPU-only torch keeps install size & RAM use low for cloud deployment
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2.0
+transformers>=4.40.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+accelerate>=0.27.0
+
+# PDF parsing
+pymupdf>=1.23.0
+
+# OCR for image reports
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# sqlite3 is part of the Python standard library — no install needed
